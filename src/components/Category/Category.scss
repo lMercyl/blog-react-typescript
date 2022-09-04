@@ -1,0 +1,19 @@
+.category {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #212529;
+
+  p {
+    color: #f1f3f584;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}

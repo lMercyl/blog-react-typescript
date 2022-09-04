@@ -1,0 +1,25 @@
+footer {
+  padding: 3rem 0;
+  background-color: #31363b;
+
+  nav {
+    margin: 0.5rem 0;
+    text-align: center;
+
+    span {
+      color: #fff;
+      margin-right: 1rem;
+    }
+
+    a {
+      color: rgba(228, 228, 228, 0.94);
+      text-decoration: none;
+      margin: 0 0.5rem;
+
+      &:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+  }
+}

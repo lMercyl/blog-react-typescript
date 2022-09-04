@@ -1,0 +1,31 @@
+.item {
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.15s ease-in-out;
+
+    p {
+      margin: 0;
+      text-transform: capitalize;
+      color: #dadada;
+      transition: color 0.15s ease-in-out;
+
+      &:last-child {
+        color: #ffffff44;
+        font-weight: 300;
+      }
+    }
+
+    &:hover {
+      background-color: rgb(66, 194, 115);
+
+      p {
+        color: #fff;
+      }
+    }
+  }
+}

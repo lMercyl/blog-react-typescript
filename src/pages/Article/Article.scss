@@ -1,0 +1,39 @@
+.description {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #212529;
+
+  p {
+    color: #f1f3f584;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+
+  li {
+    color: #fff;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+
+    a {
+      color: #afb3ff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  li::marker {
+    color: #bf95fa;
+  }
+
+  .tagGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+}

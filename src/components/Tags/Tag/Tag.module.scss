@@ -1,0 +1,18 @@
+.tag {
+  padding: 0.2rem 0.5rem;
+  color: #f8f9fa;
+  background-color: #31363b;
+  border: 1px solid #4b5056;
+  border-radius: 4px;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: color, background-color, border-color, 0.2s ease;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #40474e;
+    border-color: #7b838e;
+  }
+}

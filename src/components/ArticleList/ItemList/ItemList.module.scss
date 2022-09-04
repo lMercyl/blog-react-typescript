@@ -1,0 +1,22 @@
+.item {
+  a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 0;
+    color: #dadada;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    time {
+      color: rgb(66, 194, 115);
+      font-weight: 300;
+      font-size: 0.8rem;
+    }
+  }
+}

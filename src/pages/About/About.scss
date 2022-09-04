@@ -1,0 +1,17 @@
+.me {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #212529;
+
+  p {
+    color: #f1f3f5;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+}

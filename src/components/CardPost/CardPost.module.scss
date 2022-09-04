@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1.5rem;
+  height: 170px;
+  background-color: #212529;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px -8px rgba(42, 45, 49, 0.6) inset;
+
+  div {
+    time {
+      display: block;
+      font-size: 0.8rem;
+      color: #da66b7;
+    }
+
+    a {
+      margin: 0.5rem 0 0 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+      line-height: 1.2;
+      text-decoration: none;
+      color: #f9f8f8;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  a {
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #e2e2e2;
+
+    &:hover {
+      text-decoration: underline;
+      color: #ffffff;
+    }
+  }
+}
