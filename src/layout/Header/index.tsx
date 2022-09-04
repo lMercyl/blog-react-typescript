@@ -11,7 +11,7 @@ const Header = () => {
           <Col lg={12} className="d-flex align-items-center justify-content-between">
             <nav>
               <div className="header-nav-item">
-                <Link to="/blog-react-typescript">Артем Иванов</Link>
+                <Link to="/blog-react-typescript/">Артем Иванов</Link>
               </div>
               <div className="header-nav-item">
                 <Link to="/blog-react-typescript/about">Обо мне</Link>

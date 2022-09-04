@@ -12,7 +12,7 @@ const Project = () => {
             <img width={15} height={15} src="images/star.svg" alt="star" />
           </div>
         </div>
-        <p className={styles.title}>taniarascia.com</p>
+        <p className={styles.title}>Example project</p>
         <p>The source of this website.</p>
       </div>
       <div className={styles.buttons}>
