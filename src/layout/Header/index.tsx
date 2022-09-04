@@ -11,16 +11,16 @@ const Header = () => {
           <Col lg={12} className="d-flex align-items-center justify-content-between">
             <nav>
               <div className="header-nav-item">
-                <Link to="/">Артем Иванов</Link>
+                <Link to="/blog-react-typescript">Артем Иванов</Link>
               </div>
               <div className="header-nav-item">
-                <Link to="/about">Обо мне</Link>
+                <Link to="/blog-react-typescript/about">Обо мне</Link>
               </div>
               <div className="header-nav-item">
-                <Link to="/posts">Статьи</Link>
+                <Link to="/blog-react-typescript/posts">Статьи</Link>
               </div>
               <div className="header-nav-item">
-                <Link to="/projects">Проекты</Link>
+                <Link to="/blog-react-typescript/projects">Проекты</Link>
               </div>
               <div className="header-nav-item">
                 <a href="https://github.com/lMercyl" target="_blank" rel="noreferrer">

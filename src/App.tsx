@@ -9,12 +9,12 @@ import Article from './pages/Article';
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/blog-react-typescript" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="posts" element={<Articles />} />
-        <Route path="post/:id" element={<Article />} />
+        <Route path="/blog-react-typescript/about" element={<About />} />
+        <Route path="/blog-react-typescript/projects" element={<Projects />} />
+        <Route path="/blog-react-typescript/posts" element={<Articles />} />
+        <Route path="/blog-react-typescript/post/:id" element={<Article />} />
       </Route>
     </Routes>
   );

@@ -70,8 +70,8 @@ const Home = () => {
               title={post.title}
               date={post.createdAt}
               category={post.category}
-              url="/"
-              urlCategory="/"
+              url="/blog-react-typescript"
+              urlCategory="/blog-react-typescript"
             />
           </Col>
         ))}
@@ -84,7 +84,7 @@ const Home = () => {
               title={tutorial.title}
               date={tutorial.createdAt}
               imgUrl={tutorial.imgUrl}
-              url="/"
+              url="/blog-react-typescript"
             />
           </Col>
         ))}
@@ -96,9 +96,9 @@ const Home = () => {
             title="Keyboard Accordion"
             date="2020"
             description="Play the accordion with your keyboard!"
-            article="/"
-            demo="/"
-            url="/"
+            article="/blog-react-typescript"
+            demo="/blog-react-typescript"
+            url="/blog-react-typescript"
           />
         </Col>
         <Col lg={3}>
@@ -106,9 +106,9 @@ const Home = () => {
             title="Keyboard Accordion"
             date="2020"
             description="Play the accordion with your keyboard!"
-            article="/"
-            demo="/"
-            url="/"
+            article="/blog-react-typescript"
+            demo="/blog-react-typescript"
+            url="/blog-react-typescript"
           />
         </Col>
         <Col lg={3}>
@@ -116,9 +116,9 @@ const Home = () => {
             title="Keyboard Accordion"
             date="2020"
             description="Play the accordion with your keyboard!"
-            article="/"
-            demo="/"
-            url="/"
+            article="/blog-react-typescript"
+            demo="/blog-react-typescript"
+            url="/blog-react-typescript"
           />
         </Col>
         <Col lg={3}>
@@ -126,9 +126,9 @@ const Home = () => {
             title="Keyboard Accordion"
             date="2020"
             description="Play the accordion with your keyboard!"
-            article="/"
-            demo="/"
-            url="/"
+            article="/blog-react-typescript"
+            demo="/blog-react-typescript"
+            url="/blog-react-typescript"
           />
         </Col>
       </Row>
